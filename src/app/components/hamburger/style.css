@@ -1,0 +1,21 @@
+@import url('/src/app/globals.css');
+
+.c-btn--hamburger {
+  width: 4.8em;
+  height: 4.8em;
+  padding: .5em;
+}
+
+.c-btn--hamburger__line {
+  display: block;
+  height: 5px;
+  background-color: var(--primary);
+}
+
+.c-btn--hamburger__line:first-child {
+  transform: translateY(-10px);
+}
+
+.c-btn--hamburger__line:last-child {
+  transform: translateY(10px);
+}
