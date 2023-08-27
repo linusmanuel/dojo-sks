@@ -1,0 +1,21 @@
+@import url('/src/app/globals.css');
+.b-hero {
+  background-image: url('/images/image-4.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 6.5em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 1em;
+  position: relative;
+}
+
+.bg-overlay {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(20, 21, 26, 0.85) 99.70%, rgba(20, 21, 26, 0.85) 100%);
+  height: calc(100vh - 6.5em);
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}

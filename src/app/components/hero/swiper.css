@@ -1,0 +1,34 @@
+/* CUSTOM SWIPER STYLES */
+.swiper {
+  padding-inline: 4.7em !important;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  font-size: 2.4em;
+  color: var(--white);
+  font-weight: 700;
+  text-align: center;
+}
+
+.swiper-slide span {
+  color: var(--primary);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 3.3em !important;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
