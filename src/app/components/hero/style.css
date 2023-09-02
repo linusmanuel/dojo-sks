@@ -1,6 +1,6 @@
 @import url('/src/app/globals.css');
 .b-hero {
-  background-image: url('/images/image-4.jpg');
+  background-image: url('/images/image-3.jpg');
   background-position: center;
   background-size: cover;
   min-height: calc(100vh - 6.5em);

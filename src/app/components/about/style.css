@@ -1,0 +1,95 @@
+@import url('/src/app/globals.css');
+.b-about {
+  background-color: var(--grey-200);
+  padding-bottom: 6em;
+}
+
+.b-about__image {
+  display: block;
+  width: 100%;
+  height: 387px;
+}
+
+.b-about__image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.b-about__content {
+  padding: 6em 1em 0 1em;
+}
+
+.b-about__title {
+  color: var(--secondary);
+  font-size: 2.4em;
+  letter-spacing: .3px;
+  margin-bottom: 24px;
+}
+
+.b-about__subtitle {
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-bottom: 24px; /* Corrigir: em não funciona como esperado */
+}
+
+.b-about__text {
+  font-size: 1.3em;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.b-about__text span {
+  display: block;
+}
+
+.b-about__text span:first-of-type {
+  color: var(--secondary);
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.b-about__text span:last-of-type {
+  margin-top: 24px;
+}
+
+.b-about__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+
+.b-about__buttons .c-btn {
+  display: inline-block;
+  height: 40px;
+  max-width: 231px;
+  width: 100%;
+  border-radius: 100px;
+  padding: 12px;
+  text-align: center;
+  color: var(--white);
+  font-size: 1.6em;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+} 
+
+
+.c-btn--primary {
+  background-color: var(--primary);
+}
+
+.c-btn--primary:hover {
+  background-color: var(--secondary);
+}
+
+.c-btn--secondary {
+  background-color: var(--secondary);
+}
+
+.c-btn--secondary:hover {
+  background-color: var(--primary);
+}
