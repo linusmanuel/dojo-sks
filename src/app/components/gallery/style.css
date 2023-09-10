@@ -46,7 +46,6 @@
   color: var(--primary);
 }
 
-
 .b-gallery__link:hover svg {
   fill: var(--primary);
 }
