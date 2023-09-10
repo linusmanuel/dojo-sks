@@ -4,6 +4,7 @@ import { About } from "./components/about/about";
 import { Gallery } from "./components/gallery/gallery";
 import { Blog } from "./components/blog/blog";
 import { Partner } from "./components/partner/partner";
+import { Footer } from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Gallery />
       <Blog />
       <Partner/>
+      <Footer/>
     </>
   )
 }
