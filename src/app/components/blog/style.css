@@ -1,0 +1,15 @@
+.b-blog {
+  background-color: var(--grey-200);
+  padding-block: 64px;
+  padding-inline: 10px;
+}
+
+.b-blog__title {
+  color: var(--secondary);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+

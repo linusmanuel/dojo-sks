@@ -23,3 +23,7 @@ button {
   outline: none;
   border: none;
 }
+
+ul {
+  list-style: none;
+}
