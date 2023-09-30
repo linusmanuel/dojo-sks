@@ -24,10 +24,10 @@ export function Menu() {
         </a>
       </picture>
       <ul className="c-menu__list">
-        <li><a href="#">Inicial</a></li>
-        <li><a href="#">Inicial</a></li>
-        <li><a href="#">Inicial</a></li>
-        <li><a href="#">Inicial</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Time</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contato</a></li>
       </ul>
       <button className='c-btn c-btn--primary'>Matricule-se</button>
       <button className={buttonClass} onClick={toggle}>

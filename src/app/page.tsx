@@ -7,9 +7,10 @@ import { Partner } from "./components/partner/partner";
 import { Footer } from "./components/footer/footer";
 
 export default function Home() {
+  const menuItems = ['Inicio', 'Time', 'Blog', 'Contato']
   return (
     <>
-      <Menu />
+      <Menu items={menuItems}/>
       <Hero />
       <About />
       <Gallery />
