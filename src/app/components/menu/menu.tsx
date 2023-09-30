@@ -1,8 +1,23 @@
+'use client'
+
+import { useState } from 'react';
 import Hamburger from '../hamburger/hamburger';
 import './style.css';
+
 export function Menu() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isHambugerOpen, setIsHamburgerOpen] = useState(false);
+
+  const toggle = () => {
+    setIsMenuOpen(!isMenuOpen)
+    setIsHamburgerOpen(!isHambugerOpen)
+  }
+
+  const menuClass = isMenuOpen? 'c-menu open' : 'c-menu';
+  const buttonClass = isHambugerOpen? 'c-btn--hamburger open' : 'c-btn--hamburger';
+
   return (
-    <nav className='c-menu'>
+    <nav className={menuClass}>
       <picture className='c-logo'>
         <a href="#">
           <img src="/images/sks.png" alt="Dojo Logo" />
@@ -15,7 +30,11 @@ export function Menu() {
         <li><a href="#">Inicial</a></li>
       </ul>
       <button className='c-btn c-btn--primary'>Matricule-se</button>
-      <Hamburger></Hamburger>
+      <button className={buttonClass} onClick={toggle}>
+        <span className="c-btn--hamburger__line"></span>
+        <span className="c-btn--hamburger__line"></span>
+        <span className="c-btn--hamburger__line"></span>
+		</button>
     </nav>
   )
 }

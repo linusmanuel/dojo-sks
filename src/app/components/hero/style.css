@@ -3,7 +3,7 @@
   background-image: url('/images/image-3.jpg');
   background-position: center;
   background-size: cover;
-  min-height: calc(100vh - 6.5em);
+  min-height: 305px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 .bg-overlay {
   position: absolute;
   background: linear-gradient(180deg, rgba(20, 21, 26, 0.85) 99.70%, rgba(20, 21, 26, 0.85) 100%);
-  height: calc(100vh - 6.5em);
+  height: 305px;
   width: 100%;
   left: 0;
   z-index: 1;
