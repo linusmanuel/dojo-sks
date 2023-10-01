@@ -10,7 +10,7 @@ export default function Home() {
   const menuItems = ['Inicio', 'Time', 'Blog', 'Contato']
   return (
     <>
-      <Menu items={menuItems}/>
+      <Menu/>
       <Hero />
       <About />
       <Gallery />
