@@ -92,3 +92,39 @@
 .c-btn--secondary:hover {
   background-color: var(--primary);
 }
+
+@media screen and (min-width: 768px) {
+  .b-about {
+    padding-bottom: 0;
+  }
+
+  .b-about__image {
+    height: 547px;
+  }
+
+  .b-about__content {
+    padding: 79px 80px 87px 80px;
+  }
+
+  .b-about__title {
+    font-size: 3.2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .b-about__subtitle {
+    font-size: 1.6em;
+  }
+
+  .b-about__text {
+    font-size: 1.6em;
+  }
+
+  .b-about__text:last-of-type {
+    margin-bottom: 51px;
+  }
+
+  .b-about__buttons {
+    flex-direction: row;
+  }
+}
