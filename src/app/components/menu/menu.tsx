@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react';
-import Hamburger from '../hamburger/hamburger';
 import './style.css';
 
 export function Menu() {

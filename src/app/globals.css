@@ -5,6 +5,10 @@
   --grey-200: #f1f1f1;
   --dark: #14151a;
   --white: #fff;
+  --tablet-up: 768px;
+  --desktop: 1280px;
+  --desktop-md: 1440px;
+  --desktop-up: 1920px; 
 }
 
 * {
