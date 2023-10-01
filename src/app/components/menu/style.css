@@ -126,6 +126,7 @@
 @media screen and (min-width: 768px) {
   .c-menu {
     padding: 5px 80px;
+    height: 80px;
   }
 
   .c-menu.open 

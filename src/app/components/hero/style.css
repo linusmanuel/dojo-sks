@@ -19,3 +19,14 @@
   left: 0;
   z-index: 1;
 }
+
+@media screen and (min-width: 768px) {
+  .b-hero {
+    min-height: 481px;
+    padding-inline: 60px;
+  }
+
+  .bg-overlay {
+    height: 481px;
+  }
+}
